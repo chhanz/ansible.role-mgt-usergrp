@@ -28,7 +28,7 @@ This is example playbook.
   vars_files:
     - userlist.yml
   roles:
-  - role: ansible-role-mgt-usergrp
+  - role: ansible.role-mgt-usergrp/
 ```
    
 * example inventory   
