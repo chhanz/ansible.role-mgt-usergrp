@@ -1,0 +1,7 @@
+---
+- name: management 'user'
+  hosts: node
+  vars_files: 
+    - userlist.yml
+  roles:
+  - role: ansible-role-mgt-usergrp
